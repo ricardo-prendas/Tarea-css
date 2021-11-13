@@ -1,0 +1,69 @@
+.ribbon {
+    background-color: #5BC8F7;
+  }
+
+.ribbon::after {
+  content: "de CSS";
+  background-color: #FFBA10;
+  border-color: black;
+  border-style: dotted;
+}
+
+div > a {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic;
+}
+
+.Pstatic{
+    position: static;
+    color: blue;
+    font-family: 'Road Rage', cursive;
+}
+
+.Prelative{
+    position: relative;
+top: 40px; left: 40px;
+font-size: medium;
+}
+
+.Pabsolute{
+    position: absolute;
+top: 290px; left:500px;
+}
+/*z-index*/
+.Pfixed {
+    position: fixed;
+    color:seashell;
+    bottom: 0;
+    right: 100;
+    width: 200px;
+    background-color: royalblue;
+  }
+
+  div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+  div.primero {
+    background-color: red;
+    top: 450px;
+    left: 150px;
+    z-index:10;
+    font-weight:900;
+  }
+  div.segundo {
+    background-color: blue;
+    top: 450px;
+    left: 300px;
+    z-index:5;
+    font-weight:lighter;
+  }
+  div.tercero {
+    background-color: yellow;
+    top: 450px;
+    left: 450px;
+    z-index:1;
+    font-weight:bolder;
+  }
